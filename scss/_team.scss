@@ -1,0 +1,45 @@
+#team {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+
+  .litle-title-style {
+    flex-direction: column;
+  }
+  .container-team {
+    display: flex;
+    justify-content: space-around;
+
+    .member-card {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      justify-content: center !important;
+
+      img {
+        margin: auto;
+        width: 90%;
+        border-radius: 50%;
+        border: 3px solid rgba(0, 0, 0, 0);
+      }
+
+      img:hover {
+        border: solid 3px #bcff20;
+      }
+
+      h3 {
+        text-align: center;
+        display: inherit;
+        margin: 10px auto;
+      }
+
+      span {
+        text-align: center;
+        display: inherit;
+        margin: auto;
+        font-weight: italic;
+        opacity: 0.7;
+      }
+    }
+  }
+}

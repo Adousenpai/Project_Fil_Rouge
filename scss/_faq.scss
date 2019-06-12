@@ -1,0 +1,14 @@
+#container-question-card{
+    // margin-top: 50px;
+    margin-left: 40px;
+    width: 50%;
+    text-align: justify;
+    h4 {
+        color: $h4_color;
+    }
+}
+
+#faq{
+    display: flex;
+    flex-direction: row;
+}

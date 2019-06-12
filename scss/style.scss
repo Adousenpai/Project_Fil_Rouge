@@ -1,0 +1,18 @@
+$h4_color: rgb(21, 106, 59);
+body {
+  background-color: rgb(236, 232, 232);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+@import "menu";
+@import "header";
+@import "team";
+@import "faq";
+@import "slider";
+@import "footer";
+@import "h2";
+@import "map";
+@import "contact";
+@import "chatBot";
+@import "toggle";
+

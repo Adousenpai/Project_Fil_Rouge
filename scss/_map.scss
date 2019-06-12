@@ -1,0 +1,33 @@
+.location{
+    font-family: "palatino";
+    // background-color: white;
+    margin-top:0;
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.location p{
+    font-size: 12px;
+}
+
+.location h2{
+    transition: ease-in-out 0,1s;
+}
+
+.location h2:hover{
+    font-size: 35px;
+}
+.carte iframe{
+    float: right;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+}
